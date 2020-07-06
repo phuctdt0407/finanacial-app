@@ -1,0 +1,142 @@
+html, body {
+    font-family: 'Roboto';
+    max-width: 1600px;
+    color: white;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.side-nav {
+    width: 200px;
+    height: 100%;
+    background-color: #1f272a;
+    border-right: 2px solid #2c343b;
+}
+
+.content-container {
+    height: 100%;
+    background-color: #1a2127;
+    width: calc(100% - 200px);
+}
+
+.avt-container {
+    height: 70px;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #2c343b;
+}
+
+.avt-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fec100;
+}
+
+.user-name {
+    font-size: 12px;
+}
+
+i.common-icon {
+    color: #fec100;
+}
+
+.avt-image img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.menu-nav {
+    background-color: #1f272a;
+    padding: 20px 10px;
+}
+
+.menu-nav ul.main-items {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu-nav li.main-item {
+    margin-bottom: 25px;
+}
+
+.menu-nav ul.sub-item {
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+}
+
+.menu-nav ul.sub-item li{
+    padding: 5px 0px;
+}
+
+.item-noti {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noti-container {
+    background-color: #ff3e39;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.main-item .active {
+    color: #fec100;
+}
+
+.main-item a {
+    color: #5c6063;
+    width: 100%;
+    font-size: 14px;
+}
+
+.main-item a.active {
+    color: white;
+}
+
+.main-item a:hover {
+    text-decoration: none;
+}
+
+ul.sub-item li {
+    position: relative;
+}
+
+ul.sub-item li.active {
+    color: white;
+}
+
+ul.sub-item li a.active {
+    color: white;
+}
+
+ul.sub-item li a:hover {
+    color: white;
+}
+
+ul.sub-item li.active::before,
+ul.sub-item li a:hover::before {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #fec100;
+    top: 0;
+    left: -10px;
+    position: absolute;
+}

@@ -1,0 +1,158 @@
+.content-header {
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid #2c343b;
+}
+
+.content-header-items li{
+    display: inline-block;
+    position: relative;
+}
+
+ul.content-header-items {
+    margin: 0;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.content-header-items li a {
+    color: #5c6063;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.content-header-items li a.active {
+    color: white;
+}
+
+.content-header-items li a:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fec100;
+    bottom: -26px;
+    left: 0;
+}
+
+.content-header-items li a.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fec100;
+    bottom: -26px;
+    left: 0;
+}
+
+.main-content-container {
+    height: calc(100vh - 70px);
+    padding: 20px;
+}
+
+.main-content-header {
+    color: #fec100;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.available-fund-card {
+    background: #38414a;
+    border-radius: 15px;
+    height: 180px;
+    border-top: 2px solid #fec100;
+    padding: 20px;
+}
+
+.card-name {
+    color: #fec100;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.card-detail {
+    width: 100%;
+}
+
+.card-detail table {
+    width: 100%;
+    font-size: 12px;
+}
+
+.card-detail table tr th {
+    color: #818388;
+    text-transform: uppercase;
+}
+
+.card-detail table tr td {
+    font-size: 14px;
+}
+
+.univeral-bank-card {
+    background: #434b52;
+    border-radius: 15px;
+    height: 180px;
+    border-top: 2px solid #fe4039;
+    padding: 20px;
+}
+
+.univeral-bank-card .card-name, .master-card-container .card-name{
+    text-transform: capitalize;
+}
+
+.btn.btn-primary.common-button {
+    border-radius: 50px;
+    background-color: #fec100;
+    text-transform: capitalize;
+    color: #564e2a;
+}
+
+.detail-container {
+    float: right;
+    background-color: #fec100;
+    width: 30px;
+}
+
+.detail-container a {
+    color: #564e2a;
+}
+
+.master-card-container {
+    background: #434b52;
+    border-radius: 15px;
+    height: 180px;
+    padding: 20px;
+}
+
+.card-type-label {
+    color: #818388;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.master-card-container .row {
+    height: 100%;
+}
+
+.master-card-container .col-4{
+    height: 100%;
+}
+
+.card-info-container {
+    height: 100%;
+}
+
+.item-hidden {
+    visibility: hidden;
+}
+
+.master-card-container {
+    position: relative;
+}
+
+.branch-logo {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+}
