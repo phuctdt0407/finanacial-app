@@ -12,11 +12,16 @@
         <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
+        <!--Highcharts-->
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+
         <!--font-awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--css-->
         <link rel="stylesheet" type="text/css" href="css/sidenav-style.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <script src="js/main-script.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -101,7 +106,7 @@
                 </div>
                 <div class="main-content-container">
                     <h6 class="main-content-header">Overview</h6>
-                    <div class="row mb-3">
+                    <div class="row mb-5">
                         <div class="col-8">
                             <div class="row fund-container">
                                 <div class="col-7">
@@ -181,7 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col-3">
                             <div class="further-card d-flex flex-column justify-content-between">
                                 <div class="branch-logo">
@@ -273,6 +278,105 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="transaction-card-container">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h6 class="card-name">Transactions</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="detail-container d-flex justify-content-center align-items-center">
+                                            <a href="#">
+                                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div id="transactions-chart" class="chart-container"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="transaction-card-details">
+                                <table>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="transaction-date">04.07.2020</td>
+                                        <td>Amazon</td>
+                                        <td>Card payment</td>
+                                        <td>Shopping</td>
+                                        <td class="text-monospace transaction-amount">$2000.00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
